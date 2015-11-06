@@ -1,0 +1,5 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="calendar_top_height">30dp</dimen>
+    <dimen name="calendar_vertical_spacing">0.5dp</dimen>
+</resources>
