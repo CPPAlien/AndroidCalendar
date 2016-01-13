@@ -46,7 +46,7 @@ public class CalendarPageAdapter extends PagerAdapter implements AdapterView.OnI
     }
 
     public void setLayoutSize(int width, int height) {
-        mDayItemHeight = (int)((height - mContext.getResources().getDimensionPixelOffset(R.dimen.calendar_top_height)) / ROW_NUM + 0.5);
+        mDayItemHeight = (int)((height - mContext.getResources().getDimensionPixelOffset(R.dimen.had_calendar_top_height)) / ROW_NUM + 0.5);
         mDayItemWidth = (int)((width / COL_NUM) + 0.5);
         notifyDataSetChanged();
         loopAdapterSave.refresh();
@@ -55,7 +55,7 @@ public class CalendarPageAdapter extends PagerAdapter implements AdapterView.OnI
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
         LinearLayout linearLayout = (LinearLayout) LayoutInflater.
-                from(mContext).inflate(R.layout.calendar_page, container, false);
+                from(mContext).inflate(R.layout.had_calendar_page, container, false);
         GridView gridView = (GridView) linearLayout.findViewById(R.id.grid_view);
         gridView.setOnItemClickListener(this);
         int offset = position - CalendarView.START_ITEM;

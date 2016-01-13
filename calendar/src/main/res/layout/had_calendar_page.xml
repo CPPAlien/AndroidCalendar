@@ -2,32 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/had_white"
     android:orientation="vertical" >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/calendar_top_height"
+        android:layout_height="@dimen/had_calendar_top_height"
         android:orientation="horizontal" >
         <TextView
-            style="@style/weekDayStyle"
+            style="@style/hadWeekDayStyle"
             android:text="日" />
         <TextView
-            style="@style/weekDayStyle"
+            style="@style/hadWeekDayStyle"
             android:text="一" />
         <TextView
-            style="@style/weekDayStyle"
+            style="@style/hadWeekDayStyle"
             android:text="二"/>
         <TextView
-            style="@style/weekDayStyle"
+            style="@style/hadWeekDayStyle"
             android:text="三" />
         <TextView
-            style="@style/weekDayStyle"
+            style="@style/hadWeekDayStyle"
             android:text="四"/>
         <TextView
-            style="@style/weekDayStyle"
+            style="@style/hadWeekDayStyle"
             android:text="五" />
         <TextView
-            style="@style/weekDayStyle"
+            style="@style/hadWeekDayStyle"
             android:text="六"/>
     </LinearLayout>
 
@@ -38,5 +38,5 @@
         android:scrollbars="none"
         android:background="#CCCCCC"
         android:numColumns="7"
-        android:verticalSpacing="@dimen/calendar_vertical_spacing" />
+        android:verticalSpacing="@dimen/had_calendar_vertical_spacing" />
 </LinearLayout>

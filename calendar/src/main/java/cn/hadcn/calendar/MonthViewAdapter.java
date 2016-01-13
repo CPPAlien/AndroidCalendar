@@ -63,23 +63,23 @@ public class MonthViewAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder viewHolder;
         if ( null == convertView ) {
-            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_day, parent, false);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.had_item_day, parent, false);
             viewHolder = new ViewHolder(convertView);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder)convertView.getTag();
         }
         viewHolder.layout.setLayoutParams(new AbsListView.LayoutParams(mItemWidth, mItemHeight));
-        int color = R.color.black;
+        int color = R.color.had_black;
         switch ( getItem(position).getStatus()) {
             case OTHER:
-                color = R.color.grey;
+                color = R.color.had_grey;
                 break;
             case CURRENT_DAY:
-                color = R.color.blue;
+                color = R.color.had_blue;
                 break;
             case CURRENT_MONTH:
-                color = R.color.black;
+                color = R.color.had_black;
                 break;
         }
         viewHolder.tvDay.setTextColor(ContextCompat.getColor(mContext, color));
