@@ -2,9 +2,9 @@
 Simple Calendar implementation imitates google android calendar style
 
 
-** Example **
+**Example**
     <div class='row'>
-        <img src='http://7xq276.com2.z0.glb.qiniucdn.com/calendar.gif' width="300px"/>
+        <img src='http://7xq276.com2.z0.glb.qiniucdn.com/calendar.gif' width="250px"/>
     </div>
 [APK Download](http://7xq276.com2.z0.glb.qiniucdn.com/calendar-example.apk)
 
